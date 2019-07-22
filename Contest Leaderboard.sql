@@ -1,4 +1,6 @@
-// "https://www.hackerrank.com/challenges/contest-leaderboard"
+/* 
+"https://www.hackerrank.com/challenges/contest-leaderboard"
+*/
 
 WITH score(hacker_id, challenge_id, score) as (
 select hacker_id,challenge_id, max(submissions.score) 
