@@ -60,6 +60,7 @@ FOR
 ) AS <alias for the pivot table>  
 <optional ORDER BY clause>;  
 
+### Others
 * CASE expression
       * WHEN when_expression THEN result_expression [ ...n ]   
      [ ELSE else_result_expression ]   
