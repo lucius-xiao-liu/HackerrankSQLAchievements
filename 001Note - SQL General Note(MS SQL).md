@@ -57,8 +57,7 @@ FOR
 [<column that contains the values that will become column headers>]   
     IN ( [first pivoted column], [second pivoted column],  
     ... [last pivoted column])  
-) AS <alias for the pivot table>  
-<optional ORDER BY clause>;  
+) AS <alias for the pivot table>  <optional ORDER BY clause>
 
 ### Others
 * CASE expression
