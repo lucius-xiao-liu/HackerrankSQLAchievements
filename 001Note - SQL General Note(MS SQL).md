@@ -42,27 +42,12 @@ FROM Sales_CTE
 GROUP BY SalesYear, SalesPersonID  
 ORDER BY SalesPersonID, SalesYear; 
 * Pivot Table
-    * SELECT <non-pivoted column>,  
-    [first pivoted column] AS <column name>,  
-    [second pivoted column] AS <column name>,  
-    ...  
-    [last pivoted column] AS <column name>  
-FROM  
-    (<SELECT query that produces the data>)   
-    AS <alias for the source query>  
-PIVOT  
-(  
-    <aggregation function>(<column being aggregated>)  
-FOR   
-[<column that contains the values that will become column headers>]   
-    IN ( [first pivoted column], [second pivoted column],  
-    ... [last pivoted column])  
-) AS <alias for the pivot table>  <optional ORDER BY clause>
+    * https://docs.microsoft.com/en-us/sql/t-sql/queries/from-using-pivot-and-unpivot?view=sql-server-2017
 
 # Others
 * CASE expression
       * WHEN when_expression THEN result_expression [ ...n ]   
-     [ ELSE else_result_expression ]   
+        [ ELSE else_result_expression ]   
 
 * CONCAT ( string_value1, string_value2 [, string_valueN ] )  
 * -- CAST Syntax:  
