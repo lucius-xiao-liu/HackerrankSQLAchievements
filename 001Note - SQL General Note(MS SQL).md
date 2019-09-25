@@ -63,12 +63,7 @@ FOR
 * CASE expression
       * WHEN when_expression THEN result_expression [ ...n ]   
      [ ELSE else_result_expression ]   
-END   
-Searched CASE expression:  
-CASE  
-     WHEN Boolean_expression THEN result_expression [ ...n ]   
-     [ ELSE else_result_expression ]   
-END 
+
 * CONCAT ( string_value1, string_value2 [, string_valueN ] )  
 * -- CAST Syntax:  
 CAST ( expression AS data_type [ ( length ) ] )  
