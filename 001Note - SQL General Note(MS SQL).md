@@ -55,3 +55,6 @@ CAST ( expression AS data_type [ ( length ) ] )
   
 * -- CONVERT Syntax:  
 CONVERT ( data_type [ ( length ) ] , expression [ , style ] )  
+
+* Left/Right expression
+      * LEFT/RIGHT (character_expression/column, integer_expression/how much you want to show)--> return type: varchar(non-unicode)/nvarchar(unicode)   
